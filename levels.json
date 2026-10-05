@@ -1,0 +1,244 @@
+{
+  "scenarios": [
+    {
+      "id": "family_morning",
+      "name": "Family - Morning",
+      "difficulty": 1,
+      "characters": ["Mom"],
+      "turns": [
+        {
+          "speaker": "bot",
+          "line": "Good morning! Did you sleep well last night?"
+        },
+        {
+          "speaker": "user",
+          "expected": "Good morning! Yes, I slept very well. How about you?"
+        },
+        {
+          "speaker": "bot",
+          "line": "I slept okay, but I feel a little tired today. Are you ready for breakfast?"
+        },
+        {
+          "speaker": "user",
+          "expected": "Yes, I am starving. What are we having for breakfast?"
+        },
+        {
+          "speaker": "bot",
+          "line": "I made some toast and eggs, and there is fresh orange juice in the fridge."
+        },
+        {
+          "speaker": "user",
+          "expected": "That sounds delicious! Thank you for making breakfast."
+        },
+        {
+          "speaker": "bot",
+          "line": "You are welcome. What are your plans for the rest of the day?"
+        },
+        {
+          "speaker": "user",
+          "expected": "I have classes until afternoon, and then I will study at the library."
+        },
+        {
+          "speaker": "bot",
+          "line": "Sounds like a productive day ahead. Don't forget your umbrella, it might rain later."
+        },
+        {
+          "speaker": "user",
+          "expected": "Thanks for reminding me! Have a wonderful day."
+        }
+      ]
+    },
+    {
+      "id": "college_friend",
+      "name": "College - Talking to a Friend",
+      "difficulty": 1,
+      "characters": ["Alex"],
+      "turns": [
+        {
+          "speaker": "bot",
+          "line": "Hey! Good to see you. How is your morning going?"
+        },
+        {
+          "speaker": "user",
+          "expected": "Hey Alex! It is going well, thanks. How are you?"
+        },
+        {
+          "speaker": "bot",
+          "line": "Doing good! Are you heading to the economics lecture right now?"
+        },
+        {
+          "speaker": "user",
+          "expected": "Yes, I am on my way to class now. Are you coming too?"
+        },
+        {
+          "speaker": "bot",
+          "line": "Yeah, definitely. Did you finish the homework assignment for today?"
+        },
+        {
+          "speaker": "user",
+          "expected": "I finished most of it, but the last question was quite difficult."
+        },
+        {
+          "speaker": "bot",
+          "line": "I thought so too! We should compare answers after class. Do you want to grab lunch together?"
+        },
+        {
+          "speaker": "user",
+          "expected": "Sure, that sounds great! Let's meet at the cafeteria at noon."
+        },
+        {
+          "speaker": "bot",
+          "line": "Perfect. Let's hurry up so we can get good seats in the lecture hall."
+        },
+        {
+          "speaker": "user",
+          "expected": "Good idea. Let's go inside before the professor starts."
+        }
+      ]
+    },
+    {
+      "id": "office_meeting",
+      "name": "Office - Morning Meeting",
+      "difficulty": 2,
+      "characters": ["David"],
+      "turns": [
+        {
+          "speaker": "bot",
+          "line": "Good morning everyone. Thanks for joining our daily stand-up meeting on time."
+        },
+        {
+          "speaker": "user",
+          "expected": "Good morning David. Happy to be here."
+        },
+        {
+          "speaker": "bot",
+          "line": "Let's begin with project updates. Could you share what you worked on yesterday?"
+        },
+        {
+          "speaker": "user",
+          "expected": "Yesterday, I completed the customer report and sent it to the review team."
+        },
+        {
+          "speaker": "bot",
+          "line": "Excellent progress. What are your main priorities for today?"
+        },
+        {
+          "speaker": "user",
+          "expected": "Today, I will focus on updating the quarterly budget presentation."
+        },
+        {
+          "speaker": "bot",
+          "line": "Great. Are there any blockers or issues that you need assistance with?"
+        },
+        {
+          "speaker": "user",
+          "expected": "No blockers right now. Everything is running smoothly on my end."
+        },
+        {
+          "speaker": "bot",
+          "line": "Sounds good. If anyone has questions, please reach out on Slack. Have a great day team!"
+        },
+        {
+          "speaker": "user",
+          "expected": "Thank you David. Have a great day everyone."
+        }
+      ]
+    },
+    {
+      "id": "coffee_shop",
+      "name": "Coffee Shop - Ordering",
+      "difficulty": 1,
+      "characters": ["Barista"],
+      "turns": [
+        {
+          "speaker": "bot",
+          "line": "Hi there! Welcome to Daily Roast Cafe. What can I get started for you today?"
+        },
+        {
+          "speaker": "user",
+          "expected": "Hi! I would like to order a large iced caramel latte, please."
+        },
+        {
+          "speaker": "bot",
+          "line": "Sure thing! What kind of milk would you prefer for that?"
+        },
+        {
+          "speaker": "user",
+          "expected": "Could I get that with oat milk, please?"
+        },
+        {
+          "speaker": "bot",
+          "line": "You got it. Would you like any pastries or snacks to go with your coffee?"
+        },
+        {
+          "speaker": "user",
+          "expected": "Yes, could I also get a blueberry muffin, please?"
+        },
+        {
+          "speaker": "bot",
+          "line": "Certainly. Would you like me to warm up the muffin for you?"
+        },
+        {
+          "speaker": "user",
+          "expected": "Yes please, that would be wonderful."
+        },
+        {
+          "speaker": "bot",
+          "line": "All right, your total comes to seven dollars and fifty cents. Will you be paying with cash or card?"
+        },
+        {
+          "speaker": "user",
+          "expected": "I will pay with card. Here you go. Thank you so much!"
+        }
+      ]
+    },
+    {
+      "id": "shopping_buying",
+      "name": "Shopping - Buying Something",
+      "difficulty": 1,
+      "characters": ["Shop Assistant"],
+      "turns": [
+        {
+          "speaker": "bot",
+          "line": "Hello! Welcome to our store. Is there anything specific you are looking for today?"
+        },
+        {
+          "speaker": "user",
+          "expected": "Hello! Yes, I am looking for a warm winter jacket."
+        },
+        {
+          "speaker": "bot",
+          "line": "We have some great jackets right over here on this rack. What size do you usually wear?"
+        },
+        {
+          "speaker": "user",
+          "expected": "I usually wear a medium size. Do you have this blue one in medium?"
+        },
+        {
+          "speaker": "bot",
+          "line": "Let me check the stock for you... Yes, here is a medium in navy blue! How does it look?"
+        },
+        {
+          "speaker": "user",
+          "expected": "It looks very nice! How much does this jacket cost?"
+        },
+        {
+          "speaker": "bot",
+          "line": "It is currently on sale for sixty dollars, down from eighty dollars."
+        },
+        {
+          "speaker": "user",
+          "expected": "That is a great deal. Do you also have it in black?"
+        },
+        {
+          "speaker": "bot",
+          "line": "We do have black in stock as well. Would you like to try both of them in the fitting room?"
+        },
+        {
+          "speaker": "user",
+          "expected": "I will take the navy blue one, please. Where can I pay?"
+        }
+      ]
+    }
+  ]
+}
